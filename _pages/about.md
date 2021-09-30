@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a third year undergraduate student at [Bits Pilani, K.K Birla Goa Campus](https://www.bits-pilani.ac.in/goa/). I am robotics enthusiasts and my major fields of interest are **Controls, Path Planning and Localization**. I have a keen interest in exploring application of robots in different areas of everyday life.
+I am a third year undergraduate student at [Bits Pilani, K.K Birla Goa Campus](https://www.bits-pilani.ac.in/goa/). I am robotics enthusiasts and my major fields of interest are **Controls, Path Planning, Reinforcement Learning and Computer Vision**. I have a keen interest in exploring application of robots in different areas of everyday life.
 
 I am currently collaborating with [Dr. Madan Kumar Lakshmanan](https://www.ceeri.res.in/profiles/madan-kumar-lakshmanan/) at [Central Electronics Engineering Research Institute (CSIR-CEERI)](https://www.csircmc.res.in/ceeri) on Skin detection for Video plethysmography (VPG). I am also the Teaching Head of [The Electronics and Robotics Club, Bits Goa](https://erc-bpgc.github.io/). 
 
