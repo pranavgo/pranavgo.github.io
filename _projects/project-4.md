@@ -14,6 +14,7 @@ Currently focused on the 2D path planning aspect of navigation. Rather than writ
 
 **Role:** Control and Planning
 
-![Gennav](/images/gennav.png)<br>
-
 [Github repo](https://github.com/ERC-BPGC/gennav)
+
+![Gennav](/images/gennav.png)
+
