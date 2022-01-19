@@ -2,7 +2,7 @@
 title: "Gennav"
 collection: projects
 type: "The Electronics and Robotics Club"
-permalink: /projects/project-3
+permalink: /projects/project-4
 venue: "June"
 date: 2020
 location: "City, Country"
