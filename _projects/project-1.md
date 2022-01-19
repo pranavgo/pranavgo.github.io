@@ -4,7 +4,7 @@ collection: projects
 type: "Advisor: Dr. Rakesh Warier"
 permalink: /projects/project-1
 venue: "August"
-date: 2021
+date: 2021-02-02
 location: "City, Country"
 ---
 
