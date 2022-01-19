@@ -1,14 +1,14 @@
 ---
 title: "Applications of Model Predictive Control in Robotic Systems"
-collection: teaching
+collection: projects
 type: "Advisor: Dr. Rakesh Warier"
-permalink: /teaching/2014-spring-teaching-1
-venue: ""
+permalink: /projects/project-1
+venue: "August"
 date: 2021-08-24
 location: "City, Country"
 ---
 
-The project aimed at understanding the implementation of Model Predictive Control on robotic systems like 2D manipulator and comparing its peformance with other controllers. Since 2d robot arm is non linear system, we used the technique of feedback linearization to avoid high computation and complexity due to non-linear MPC. 
+The project aimed at understanding the implementation of Model Predictive Control on robotic systems like 2D manipulator and comparing its peformance with other controllers. Since 2D robot arm is non linear system, we used the technique of feedback linearization to avoid high computation and complexity due to non-linear MPC. 
 
 To test our approach we created a Simulink model of the entire system along with the controller and conducted simulations with various parameters and noises by moving the arm from an initial position to a goal position. We also created a Simscape multibody model to visualize the robot arm in 3D. We also created a MATLAB script to simulate the robot arm along with the PID controller and compare its performance with MPC.
 
