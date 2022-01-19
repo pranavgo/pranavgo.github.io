@@ -15,4 +15,6 @@ Currently we are working on creating a control stack using ROS for conducting si
 
 **Role:** Control and Simulation
 
+![Spiderbot](/images/spiderbot.jpg)<br>
+
 [Github repo](https://github.com/Ashutosh781/quadruped-simulink)

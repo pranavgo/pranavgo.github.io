@@ -14,4 +14,4 @@ I prevously worked with [Dr. Madan Kumar Lakshmanan](https://www.ceeri.res.in/pr
 
 I have currently pursuing undergraduate research on implementing Model Predictive Control with feedback linearization on robot manipulators with [Dr. Rakesh Warier](https://www.bits-pilani.ac.in/goa/rakeshw/profile). I also worked with [Dr. Amit Setia](https://universe.bits-pilani.ac.in/goa/amitsetia/profile) on Optimal control using B-splines for trajectory planning and obstacle avoidance.
 
-I am currently the Teaching Head of [The Electronics and Robotics Club, Bits Goa](https://erc-bpgc.github.io/). I have extensive experience with ROS, Python, C++, and MATLAB, along with the theoretical knowledge I have gained through courses like Modern Control Sytems, Neural Networks and Fuzzy Logic and Non-Linear Dynamics. 
+I am currently the Teaching Head of [The Electronics and Robotics Club, Bits Goa](https://erc-bpgc.github.io/). I am also part of Nirmaan Organization, through which I educate underpriveleged students in Zari district of Goa.
