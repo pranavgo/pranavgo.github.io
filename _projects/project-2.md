@@ -1,7 +1,7 @@
 ---
 title: "Optimal Control Problems in Robotics"
 collection: projects
-type: "Advisor: Dr. Amit Setia"
+type: "Mentored by Dr. Amit Setia"
 permalink: /projects/project-2
 venue: "August"
 date: 2021-02-02

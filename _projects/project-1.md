@@ -1,7 +1,7 @@
 ---
 title: "Applications of Model Predictive Control in Robotic Systems"
 collection: projects
-type: "Advisor: Dr. Rakesh Warier"
+type: "Mentored by Dr. Rakesh Warier"
 permalink: /projects/project-1
 venue: "August"
 date: 2021-02-02
