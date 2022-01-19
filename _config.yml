@@ -78,7 +78,7 @@ analytics:
     tracking_id          :
 
 # Google Analytics
-google_analytics: GTM-WZGD54L
+google_analytics: UA-173174352-5
 
 # Site Author
 author:
