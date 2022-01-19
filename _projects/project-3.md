@@ -4,7 +4,7 @@ collection: projects
 type: "The Electronics and Robotics Club"
 permalink: /projects/project-3
 venue: "Feburary"
-date: 2020
+date: 2020-02-02
 location: "City, Country"
 ---
 Project SpiderBot started in Feb 2020, is a hexapod with six independent legs, each with three degrees of freedom. One advantage of legged robots is that it can climb over obstacles larger than itself. Hexapod walking robots also benefit from a lower impact on the terrain and have greater mobility in surroundings.
