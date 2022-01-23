@@ -14,4 +14,4 @@ The robot will be able to autonomously navigate around obstacles and reach waypo
 
 [Github repo](https://github.com/ERC-BPGC/Trotbot)
 
-[![Trotbot](/images/IMG_20190201_003104-01.jpeg)](https://drive.google.com/file/d/19A_U8wf_ZMhCg7OSocw_d35RRSC4s0jQ/view?usp=sharing "Link Title")
+[![Trotbot](\images\Untitled-1.png)](https://drive.google.com/file/d/19A_U8wf_ZMhCg7OSocw_d35RRSC4s0jQ/view?usp=sharing "Play Video")
