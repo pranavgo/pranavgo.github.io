@@ -4,7 +4,7 @@ collection: projects
 type: "The Electronics and Robotics Club"
 permalink: /projects/project-5
 venue: "June"
-date: 2021-02-02
+date: 2021-05-02
 location: "City, Country"
 ---
 
