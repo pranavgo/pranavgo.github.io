@@ -7,7 +7,7 @@ venue: "June"
 date: 2022-06-06
 location: "City, Country"
 ---
-Project VeRT aimed at finding research gaps and the challenges in rapid transport of heavy payloads and create a plan to address these challenges. The project was funded by DARPA USA and was lead by [Dr. Beau Pollard](https://www.ri.cmu.edu/ri-people/beau-pollard/) and [Prof Howie Choset](https://www.ri.cmu.edu/ri-faculty/howie-choset/).
+Project VeRT aimed at finding research gaps and the challenges in rapid transport of heavy payloads and create a plan to address these challenges. The project was supported by DARPA USA and was lead by [Dr. Beau Pollard](https://www.ri.cmu.edu/ri-people/beau-pollard/) and [Prof Howie Choset](https://www.ri.cmu.edu/ri-faculty/howie-choset/).
 
 I worked on developing a protoype of a Hybid legged-wheel robot for transporting heavy payloads. The design was inspired by a human carry dolly on stair to transport goods. I developed the hardware prototype of the robot using HEBI modules and worked on Bezier curve based kinematic control as well as MIT Cheetah inspired Convex MPC control for the locomotion of the robot.
 
