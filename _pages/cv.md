@@ -8,4 +8,4 @@ redirect_from:
 ---
 
 {% include base_path %}
- Here is my [CV](https://drive.google.com/file/d/1sma33E0HuN3rnXuvQ099Dj04Bt4tY956/view) and latest [transcipt](https://drive.google.com/file/d/1SgeHH8TB2y7D5ZrheXkdshIpn_SfsEsh/view?usp=sharing)
+ Here is my [CV](https://drive.google.com/file/d/1BwOt8Xtq0wFIO9Jb-zilzgw6vQCKyOAO/view?usp=sharing)
