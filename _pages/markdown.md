@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 ### Course Mentor, Software for Embedded Systems 
-* Jan 2022 - Present
+* Jan 2022 - May 2022
 * The course CS F424/ CS G523 is conducted in Bits Goa for CS Master program in Spring Semester under the guidance of Dr. Neena Goveas
 * Contents of the course include introduction to Robot Operating System (ROS), development boards (RasPi, Arduino, ESP), sensor interfacing, basic control theory, motion planning & simulations.
   
