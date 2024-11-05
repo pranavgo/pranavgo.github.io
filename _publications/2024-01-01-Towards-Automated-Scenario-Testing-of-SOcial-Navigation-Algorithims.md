@@ -1,5 +1,5 @@
 ---
-title: "Towards Automated Scenario Testing of SOcial Navigation Algorithims"
+title: "Towards Automated Scenario Testing of Social Navigation Algorithims"
 collection: publications
 permalink: /publication/2024-01-01-Towards-Automated-Scenario-Testing-of-SOcial-Navigation-Algorithims
 date: 2024-01-01
