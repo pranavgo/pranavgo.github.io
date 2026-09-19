@@ -8,4 +8,5 @@ redirect_from:
 ---
 
 {% include base_path %}
- Here is my [CV](https://drive.google.com/file/d/1uZSdrIz6Kk5F6e0nUID9wW9wktb_6_w-/view?usp=sharing)
+
+Here is my [CV]({{ base_path }}/files/Pranav_Goyal_CV.pdf).

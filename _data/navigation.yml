@@ -4,16 +4,13 @@ main:
     url: /publications/
 
   - title: "Experience"
-    url: /experience/    
+    url: /experience/
 
-  - title: "Projects"
-    url: /projects/    
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
-    
   - title: "Teaching"
     url: /markdown/
+
+  - title: "Blog"
+    url: /year-archive/
+
+  - title: "CV"
+    url: /cv/

@@ -243,3 +243,74 @@
     }
   }
 }
+
+/*
+   Publication list (thumbnail + text rows)
+   ========================================================================== */
+
+.pub__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5em;
+  padding: 1.5em 0;
+  border-bottom: 1px solid $border-color;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  @include breakpoint(max-width $small) {
+    display: block;
+  }
+}
+
+.pub__thumb {
+  flex: 0 0 210px;
+
+  img {
+    width: 100%;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+  }
+
+  @include breakpoint(max-width $small) {
+    margin-bottom: 1em;
+  }
+}
+
+.pub__body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.pub__title {
+  margin: 0 0 0.3em;
+  font-size: $type-size-5;
+  line-height: 1.35;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.pub__venue {
+  margin: 0 0 0.5em;
+  font-size: $type-size-6;
+  color: $gray;
+  font-style: italic;
+}
+
+.pub__excerpt {
+  margin: 0 0 0.6em;
+  font-size: $type-size-6;
+  line-height: 1.6;
+}
+
+.pub__links {
+  margin: 0;
+  font-size: $type-size-6;
+}

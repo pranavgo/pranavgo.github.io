@@ -7,6 +7,15 @@ redirect_from:
   - /markdown.html
 ---
 
+### Graduate Student Instructor (GSI), ROB 204: Introduction to Human-Robot Systems
+* Fall 2026
+* University of Michigan, Department of Robotics
+
+### Course Developer, ROB 498/599: Computational HRI
+* Jul 2025 - Oct 2025
+* University of Michigan, Department of Robotics
+* Developed course assignments for the graduate Computational Human-Robot Interaction course, covering modeling and evaluation of human-robot interaction.
+
 ### Course Mentor, Software for Embedded Systems 
 * Jan 2022 - May 2022
 * The course CS F424/ CS G523 is conducted in Bits Goa for CS Master program in Spring Semester under the guidance of Dr. Neena Goveas

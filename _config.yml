@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Pranav Goyal"
 title_separator          : "-"
 name                     : &name "Pranav Goyal"
-description              : &description "personal description"
+description              : &description "PhD student in Robotics at the University of Michigan, researching human-aware motion planning and social robot navigation."
 url                      : https://pranavgo.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "pranavgo/pranavgo.github.io"
@@ -81,19 +81,19 @@ analytics:
 author:
   name             : "Pranav Goyal"
   avatar           : "bio-photo.png"
-  bio              : "Master's in Robotics at University of Michigan"
-  location         : "Ann Arbor"
+  bio              : "PhD Candidate in Robotics, University of Michigan"
+  location         : "Ann Arbor, MI"
   employer         :
-  pubmed           : 
+  pubmed           :
   googlescholar    : https://scholar.google.com/citations?user=4lQd0TsAAAAJ
-  email            : "pranav.d.goyal@gmai.com"
+  email            : "prgoyal@umich.edu"
   researchgate     :  
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "pranav.goyal.3"
+  facebook         :
   foursquare       :
   github           : "pranavgo"
   google_plus      :
@@ -108,7 +108,7 @@ author:
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "@Pranav50481534"
+  twitter          :
   vine             :
   weibo            :
   xing             :
@@ -175,7 +175,7 @@ kramdown:
 # Collections
 collections:
   projects:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: true
