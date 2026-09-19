@@ -1,6 +1,8 @@
 ---
 title: "Towards Automated Void Detection for Search and Rescue with 3D Perception"
 collection: publications
+authors: 'Ananya Bal, Pranav Goyal*, Ashutosh Gupta*, David Merrick, Robin Murphy, Howie Choset'
+author_note: '* Equal contribution'
 permalink: /publication/2023-01-01-Towards-Automated-Void-Detection-for-Search-and-Rescue-with-3D-Perception
 date: 2023-01-01
 venue: '2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)'

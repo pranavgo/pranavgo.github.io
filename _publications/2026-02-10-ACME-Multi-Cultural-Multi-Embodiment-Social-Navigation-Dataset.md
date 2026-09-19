@@ -1,6 +1,7 @@
 ---
 title: "ACME: A Multi-Cultural, Multi-Embodiment Social-Navigation Dataset"
 collection: publications
+authors: 'Shashank Rao Marpally, Allan Wang, ... , Pranav Goyal, ... , Christoforos Mavrogiannis, Harold Soh'
 permalink: /publication/2026-02-10-ACME-Multi-Cultural-Multi-Embodiment-Social-Navigation-Dataset
 header:
   teaser: pub-acme.jpg

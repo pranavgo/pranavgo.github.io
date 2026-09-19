@@ -1,6 +1,7 @@
 ---
 title: "SocRATES: Towards Automated Scenario-based Testing of Social Navigation Algorithms"
 collection: publications
+authors: 'Shashank Rao Marpally, Pranav Goyal, Harold Soh'
 permalink: /publication/2026-01-20-SocRATES-Towards-Automated-Scenario-based-Testing-RA-L
 header:
   teaser: pub-socrates.jpg

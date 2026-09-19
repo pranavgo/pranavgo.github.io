@@ -1,6 +1,7 @@
 ---
 title: "Rethinking Legibility in Social Robot Navigation: Impact of Intent Representation and Human Attention"
 collection: publications
+authors: 'Pranav Goyal, Andrew Stratton, Christoforos Mavrogiannis'
 permalink: /publication/2026-03-16-Rethinking-Legibility-in-Social-Robot-Navigation
 header:
   teaser: pub-legibility.jpg

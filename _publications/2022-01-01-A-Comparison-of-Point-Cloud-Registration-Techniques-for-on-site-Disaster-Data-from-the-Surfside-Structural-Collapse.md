@@ -1,6 +1,7 @@
 ---
 title: "A Comparison of Point Cloud Registration Techniques for on-site Disaster Data from the Surfside Structural Collapse"
 collection: publications
+authors: 'Ananya Bal, Robert Ladig, Pranav Goyal, John Galeotti, Howie Choset, David Merrick, Robin Murphy'
 permalink: /publication/2022-01-01-A-Comparison-of-Point-Cloud-Registration-Techniques-for-on-site-Disaster-Data-from-the-Surfside-Structural-Collapse
 date: 2022-01-01
 venue: '2022 IEEE International Symposium on Safety, Security, and Rescue Robotics (SSRR)'

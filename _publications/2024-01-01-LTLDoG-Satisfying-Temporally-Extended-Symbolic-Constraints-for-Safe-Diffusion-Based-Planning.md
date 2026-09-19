@@ -1,6 +1,7 @@
 ---
 title: "LTLDoG: Satisfying Temporally-Extended Symbolic Constraints for Safe Diffusion-Based Planning"
 collection: publications
+authors: 'Zeyu Feng, Hao Luan, Pranav Goyal, Harold Soh'
 permalink: /publication/2024-01-01-LTLDoG-Satisfying-Temporally-Extended-Symbolic-Constraints-for-Safe-Diffusion-Based-Planning
 date: 2024-01-01
 venue: 'IEEE Robotics and Automation Letters'

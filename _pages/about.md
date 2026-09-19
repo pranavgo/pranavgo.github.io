@@ -12,7 +12,7 @@ I am a PhD candidate in [Robotics](https://robotics.umich.edu/) at the [Universi
 
 My current work builds MPPI-based controllers for legible robot motion. In [Rethinking Legibility in Social Robot Navigation](/publication/2026-03-16-Rethinking-Legibility-in-Social-Robot-Navigation), we found that signaling a robot's immediate choice, like which side to pass on, works better than signaling its final goal, and holds up even when people are distracted.
 
-More broadly, my work follows one thread: a robot moving among people acts under **actionable uncertainty**. That uncertainty comes from context, like whether a person is distracted or attentive, or whether a blind corner hides an oncoming pedestrian. I am interested in characterizing that uncertainty and in treating the robot's motion as the lever for acting on it: **how a robot moves decides both what it gets to observe and what people infer about it**.
+More broadly, my work follows one thread: a robot moving among people acts under **actionable uncertainty**. That uncertainty comes from context, like whether a person is distracted or attentive, or whether a blind corner hides an oncoming pedestrian. I am interested in characterizing that uncertainty and in using the robot's own motion to act on it: **how a robot moves decides both what it gets to observe and what people infer about it**.
 
 A related line of my work is on human motion prediction and the data behind it. This includes studying [how prediction quality shapes navigation performance](/publication/2026-03-17-How-Human-Motion-Prediction-Quality-Shapes-Social-Robot-Navigation-Performance), and building the datasets ([ACME](/publication/2026-02-10-ACME-Multi-Cultural-Multi-Embodiment-Social-Navigation-Dataset), [Bi<sup>3</sup>](/publication/2026-05-01-Bi3-A-Biplatform-Bicultural-Biperson-Dataset)) and scenario-based testing tools ([SocRATES](/publication/2026-01-20-SocRATES-Towards-Automated-Scenario-based-Testing-RA-L)) these models depend on.
 
@@ -25,5 +25,4 @@ More on my [Publications](/publications/), [Experience](/experience/), and [CV](
 * **HRI 2026:** How Human Motion Prediction Quality Shapes Social Robot Navigation Performance
 * **IEEE RA-L:** SocRATES: Automated Scenario-based Testing of Social Navigation Algorithms
 * **ICRA 2026:** Bi<sup>3</sup>: A Biplatform, Bicultural, Biperson Dataset for Social Robot Navigation
-* **IJRR (under review):** ACME: A Multi-Cultural, Multi-Embodiment Social-Navigation Dataset
 * **RSS 2024 workshop:** Runner-up Best Paper Award for our scenario-testing paper

@@ -1,6 +1,7 @@
 ---
 title: "Towards Automated Scenario Testing of Social Navigation Algorithims"
 collection: publications
+authors: 'Shashank Marpally, Pranav Goyal, Harold Soh'
 permalink: /publication/2024-01-01-Towards-Automated-Scenario-Testing-of-SOcial-Navigation-Algorithims
 date: 2024-01-01
 venue: 'Unsolved Problems in Social Navigation workshop, RSS 2024'

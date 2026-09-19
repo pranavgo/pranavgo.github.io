@@ -1,6 +1,7 @@
 ---
 title: "Bi3: A Biplatform, Bicultural, Biperson Dataset for Social Robot Navigation"
 collection: publications
+authors: 'Andrew Stratton, Phani Teja Singamaneni, Pranav Goyal, Rachid Alami, Christoforos Mavrogiannis'
 permalink: /publication/2026-05-01-Bi3-A-Biplatform-Bicultural-Biperson-Dataset
 header:
   teaser: pub-bi3.jpg

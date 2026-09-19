@@ -297,6 +297,17 @@
   }
 }
 
+.pub__authors {
+  margin: 0 0 0.25em;
+  font-size: $type-size-6;
+  line-height: 1.5;
+}
+
+.pub__note {
+  color: $gray;
+  font-size: 0.9em;
+}
+
 .pub__venue {
   margin: 0 0 0.5em;
   font-size: $type-size-6;
