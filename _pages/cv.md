@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-Here is my [CV]({{ base_path }}/files/Pranav_Goyal_CV.pdf).
+Here is my [CV]({{ base_path }}/files/Pranav_Goyal_CV.pdf) (full academic CV) and a one-page [resume]({{ base_path }}/files/Pranav_Goyal_Resume.pdf).
