@@ -20,7 +20,7 @@ Before Michigan, I was a Research Assistant at the [CLeAR Lab](https://clear-nus
 
 More on my [Publications](/publications/), [Experience](/experience/), and [CV](/cv/) pages, or reach me at prgoyal@umich.edu.
 
-### News
+## News
 * **HRI 2026 (LBR):** Rethinking Legibility in Social Robot Navigation
 * **HRI 2026:** How Human Motion Prediction Quality Shapes Social Robot Navigation Performance
 * **IEEE RA-L:** SocRATES: Automated Scenario-based Testing of Social Navigation Algorithms

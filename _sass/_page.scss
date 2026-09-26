@@ -51,12 +51,20 @@
 .page__content {
 
   h2 {
-    padding-bottom: 0.5em;
+    margin-top: 2.25em;
+    padding-bottom: 0.4em;
     border-bottom: 1px solid $border-color;
   }
 
   p, li, dl {
     font-size: 1em;
+  }
+
+  /* cap line length for comfortable reading */
+  > p,
+  > ul > li,
+  > ol > li {
+    max-width: 42em;
   }
 
   /* paragraph indents */
