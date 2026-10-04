@@ -18,9 +18,9 @@
 
 .page {
   @include breakpoint($large) {
-    @include span(10 of 12 last);
+    @include span(9.5 of 12 last);
     @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
+    @include suffix(0.25 of 12);
   }
 
   .page__inner-wrap {
@@ -64,7 +64,7 @@
   > p,
   > ul > li,
   > ol > li {
-    max-width: 42em;
+    max-width: 46em;
   }
 
   /* paragraph indents */
@@ -81,10 +81,14 @@
   }
 
   a {
+    color: inherit;
     text-decoration: underline;
+    text-decoration-color: $light-gray;
+    text-underline-offset: 2px;
 
     &:hover {
-      text-decoration: underline;
+      color: $link-color;
+      text-decoration-color: $link-color;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
