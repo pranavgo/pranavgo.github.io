@@ -270,10 +270,13 @@
 }
 
 .pub__thumb {
-  flex: 0 0 210px;
+  flex: 0 0 220px;
 
   img {
+    display: block;
     width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
     border: 1px solid $border-color;
     border-radius: $border-radius;
   }
@@ -306,6 +309,7 @@
 }
 
 .pub__authors {
+  font-family: $sans-serif;
   margin: 0 0 0.25em;
   font-size: 0.9em;
   line-height: 1.5;
@@ -317,6 +321,7 @@
 }
 
 .pub__venue {
+  font-family: $sans-serif;
   margin: 0 0 0.5em;
   font-size: 0.9em;
   color: $gray;
@@ -330,11 +335,91 @@
 }
 
 .pub__links {
+  font-family: $sans-serif;
   margin: 0;
   font-size: 0.9em;
 
   a {
     color: $link-color;
     text-decoration-color: $link-color;
+  }
+}
+
+/* publication rows also appear inside .page__content on the home page,
+   where generic h2/p rules would otherwise override these */
+.pub__item {
+  .pub__title   { margin: 0 0 0.35em; padding: 0; border: 0; font-size: 1.1em; }
+  .pub__authors { margin: 0 0 0.15em; font-size: 0.9em; }
+  .pub__venue   { margin: 0 0 0.5em;  font-size: 0.9em; }
+  .pub__excerpt { margin: 0 0 0.5em;  font-size: 0.95em; line-height: 1.6; max-width: none; }
+  .pub__links   { margin: 0;          font-size: 0.9em; }
+}
+
+/* publications page shows abstracts, so give the figure more presence */
+.archive .pub__thumb {
+  flex-basis: 290px;
+}
+
+/* experience list */
+.exp__item {
+  padding: 1.1em 0;
+  border-bottom: 1px solid $border-color;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  .exp__head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.25em 1em;
+  }
+
+  .exp__org {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1.1em;
+    line-height: 1.35;
+
+    a {
+      color: $darker-gray;
+      text-decoration: none;
+
+      &:hover {
+        color: $link-color;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .exp__dates {
+    font-family: $sans-serif;
+    font-size: 0.88em;
+    color: $gray;
+    white-space: nowrap;
+  }
+
+  .exp__meta {
+    margin: 0.15em 0 0.4em;
+    font-family: $sans-serif;
+    font-size: 0.9em;
+    color: $gray;
+  }
+
+  .exp__summary {
+    margin: 0;
+    font-size: 0.97em;
+    line-height: 1.6;
+  }
+
+  .exp__more {
+    font-family: $sans-serif;
+    font-size: 0.85em;
+    color: $link-color;
+    text-decoration-color: $link-color;
+    white-space: nowrap;
   }
 }

@@ -3,9 +3,10 @@ title: "Fluent Robotics Lab, University of Michigan"
 collection: talks
 permalink: /experience/Fluent-Robotics-Lab
 venue: "PhD Research Assistant"
-duration: August 2024 - Present
+duration: "Aug 2024 – Present"
 date: August 26, 2024
-location: "Ann Arbor, Michigan, USA"
+location: "Ann Arbor, MI, USA"
+summary: "Legible MPPI-based navigation, human motion prediction, and large-scale social navigation datasets."
 ---
 The [Fluent Robotics Lab](https://fluentrobotics.com/), directed by [Prof. Christoforos Mavrogiannis](https://chrismavrogiannis.com/), builds algorithms and systems that let robots work fluently with and around people in dynamic, unstructured environments.
 
