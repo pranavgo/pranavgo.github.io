@@ -14,7 +14,7 @@ My research focuses on navigation under **actionable uncertainty** in human envi
 
 ## News
 
-* **THRI 2026.** [Rethinking Legibility in Social Robot Hallway Navigation: Impact of Intent Representation and Human Distraction](/publication/2026-10-30-Rethinking-Legibility-in-Social-Robot-Hallway-Navigation).
+* **THRI 2026.** Our paper, [Rethinking Legibility in Social Robot Hallway Navigation](/publication/2026-10-30-Rethinking-Legibility-in-Social-Robot-Hallway-Navigation), appears in *ACM Transactions on Human-Robot Interaction*.
 * **HRI 2027 — Under review.** [Alpaca: An Interactive Platform for Social Robot Navigation](/publication/2026-10-30-Alpaca-An-Interactive-Platform-for-Social-Robot-Navigation).
 * **HRI 2026 (LBR).** Rethinking Legibility in Social Robot Navigation
 * **HRI 2026.** How Human Motion Prediction Quality Shapes Social Robot Navigation Performance
