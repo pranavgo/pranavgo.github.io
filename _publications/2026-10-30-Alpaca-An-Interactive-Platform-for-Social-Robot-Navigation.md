@@ -5,7 +5,7 @@ collection: publications
 # HRI 2027 review status supplied by the author.
 authors: 'Pranav Goyal, Jiamu Liu, Andrew Stratton, Tisha Jain, Christoforos Mavrogiannis'
 permalink: /publication/2026-10-30-Alpaca-An-Interactive-Platform-for-Social-Robot-Navigation
-selected: true
+published: false
 date: 2026-10-30
 venue: 'ACM/IEEE International Conference on Human-Robot Interaction (HRI) 2027'
 publication_status: 'Under review at'
