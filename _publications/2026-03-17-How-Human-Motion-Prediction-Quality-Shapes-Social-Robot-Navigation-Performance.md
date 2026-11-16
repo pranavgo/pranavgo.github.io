@@ -1,6 +1,7 @@
 ---
 title: "How Human Motion Prediction Quality Shapes Social Robot Navigation Performance in Constrained Spaces"
 collection: publications
+homepage_category: Human Behavior and Robot Interaction
 authors: 'Andrew Stratton, Phani Teja Singamaneni, Pranav Goyal, Rachid Alami, Christoforos Mavrogiannis'
 permalink: /publication/2026-03-17-How-Human-Motion-Prediction-Quality-Shapes-Social-Robot-Navigation-Performance
 header:

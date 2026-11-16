@@ -291,6 +291,11 @@
   min-width: 0;
 }
 
+.pub__thumb--contain img {
+  object-fit: contain;
+  background: #fff;
+}
+
 .pub__title {
   margin: 0 0 0.3em;
   font-size: 1.1em;
@@ -358,6 +363,58 @@
 /* publications page shows abstracts, so give the figure more presence */
 .archive .pub__thumb {
   flex-basis: 290px;
+}
+
+/* Use the category dividers below the selected-publications heading. */
+.page__content #selected-publications {
+  padding-bottom: 0;
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+#selected-publications + .publication-group {
+  margin-top: 1.25em;
+}
+
+/* Group selected publications while keeping the academic list layout. */
+.publication-group {
+  margin-top: 2em;
+
+  .publication-group__heading {
+    margin: 0;
+    padding: 0 0 0.8em;
+    border-bottom: 2px solid $border-color;
+    font-size: 0.82em;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+    color: $gray;
+  }
+
+  .pub__item {
+    align-items: center;
+    padding: 1.3em 0;
+  }
+
+  .pub__thumb {
+    flex-basis: 190px;
+  }
+
+  @include breakpoint(max-width $medium) {
+    .pub__item {
+      display: block;
+    }
+
+    .pub__thumb {
+      max-width: 220px;
+      margin: 0 0 1em;
+    }
+
+    .publication-group__heading {
+      letter-spacing: 0.025em;
+    }
+  }
 }
 
 /* experience list */

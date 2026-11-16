@@ -12,7 +12,7 @@ The [Fluent Robotics Lab](https://fluentrobotics.com/), directed by [Prof. Chris
 
 **Role**:
 
-- Developed MPPI-based goal-intent expression algorithms in PyTorch for human-aware navigation, and studied how contextual legibility is affected by human distraction/attention in social navigation using the Hello Robot Stretch 2 platform ([Rethinking Legibility in Social Robot Navigation](/publication/2026-03-16-Rethinking-Legibility-in-Social-Robot-Navigation), HRI 2026 LBR)
+- Developed MPPI-based intent-expression algorithms in PyTorch for human-aware navigation, and studied how intent representation and pedestrian attention affect coordination using the Hello Robot Stretch 2 platform. This work appeared in an [HRI 2026 late-breaking report](/publication/2026-03-16-Rethinking-Legibility-in-Social-Robot-Navigation) and was extended in [Intent Representation and Human Distraction Modulate the Effects of Legible Robot Motion in Hallway Navigation](/publication/2026-10-30-Rethinking-Legibility-in-Social-Robot-Hallway-Navigation), accepted to THRI.
 
 - Contributing to a scenario-centric social navigation dataset (ACME) for training foundational navigation models, and to the Bi<sup>3</sup> biplatform, bicultural dataset accepted to ICRA 2026
 

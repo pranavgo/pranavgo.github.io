@@ -1,13 +1,16 @@
 ---
 title: "Alpaca: An Interactive Platform for Social Robot Navigation"
 collection: publications
+homepage_category: Robot Systems and Evaluation
 # Title and author order: https://vizij.ai/events/hri-2026-tutorial/
 # HRI 2027 review status supplied by the author.
 authors: 'Pranav Goyal, Jiamu Liu, Andrew Stratton, Tisha Jain, Christoforos Mavrogiannis'
 permalink: /publication/2026-10-30-Alpaca-An-Interactive-Platform-for-Social-Robot-Navigation
-published: false
+header:
+  teaser: pub-alpaca.png
+  teaser_fit: contain
 date: 2026-10-30
-venue: 'ACM/IEEE International Conference on Human-Robot Interaction (HRI) 2027'
+venue: 'HRI 2027'
 publication_status: 'Under review at'
 citation: 'Pranav Goyal, Jiamu Liu, Andrew Stratton, Tisha Jain, Christoforos Mavrogiannis, &quot;Alpaca: An Interactive Platform for Social Robot Navigation.&quot; Under review at the ACM/IEEE International Conference on Human-Robot Interaction (HRI), 2027.'
 ---

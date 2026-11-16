@@ -1,0 +1,171 @@
+﻿% Revised content in Pranav Goyal's existing resume.cls template.
+% Original template: Trey Hunner / LaTeXTemplates.com.
+% Original source and PDF preserved separately.
+\documentclass{resume}
+\usepackage[left=0.4in,top=0.45in,right=0.4in,bottom=0.45in]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{needspace}
+\definecolor{link}{HTML}{428BCA}
+\hypersetup{colorlinks=true,urlcolor=link,linkcolor=link,
+  pdftitle={Pranav Goyal -- Research CV},pdfauthor={Pranav Goyal}}
+\newcommand{\me}{\underline{\bf Pranav Goyal}}
+\newcommand{\pubnote}[1]{{\small\em #1}}
+\newcommand{\authorname}[1]{\mbox{#1}}
+\newcommand{\pubauthors}[1]{\par\nobreak{\small\itshape\raggedright #1\par}\nobreak}
+\newcommand{\pubcategory}[1]{%
+  \par\Needspace{6\baselineskip}\addvspace{0.35\baselineskip}%
+  {\small\scshape\color{black!65}#1\par}\nobreak%
+}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\setlength{\emergencystretch}{1em}
+
+\name{Pranav Goyal}
+\address{+1 734-368-0757 \enspace $\cdot$ \enspace \href{mailto:pranav.d.goyal@gmail.com}{pranav.d.goyal@gmail.com} \enspace $\cdot$ \enspace \href{https://pranavgo.github.io/}{pranavgo.github.io} \enspace $\cdot$ \enspace \href{https://github.com/pranavgo}{GitHub} \enspace $\cdot$ \enspace \href{https://www.linkedin.com/in/pranav-goyal-010b08197/}{LinkedIn}}
+
+\begin{document}
+\begin{rSection}{Research Interests}
+Human-Aware Planning, Robot Learning, Multimodal Perception, Human--Robot Interaction.
+\end{rSection}
+
+\begin{rSection}{Education}
+{\bf University of Michigan -- Ann Arbor} \hfill {\em Aug 2024 -- Present}
+\\ Ph.D. Candidate in Robotics \hfill {\em CGPA: 4.12/4.00}
+\\ Expected graduation: Aug 2029
+\\ Advisor: \href{https://chrismavrogiannis.com/}{Dr. Christoforos Mavrogiannis}, Fluent Robotics Lab
+
+{\bf BITS Pilani, K. K. Birla Goa Campus} \hfill {\em Aug 2019 -- Mar 2023}
+\\ B.E. in Electronics and Instrumentation Engineering \hfill {\em CGPA: 8.58/10}
+\end{rSection}
+
+\begin{rSection}{Publications}
+\pubcategory{Journal and Conference Papers}
+\begin{enumerate}[leftmargin=0pt,labelwidth=1.1em,labelsep=0.2em,itemindent=0pt,listparindent=0pt,align=right,topsep=0.1em,itemsep=0.3em,parsep=0em,label=\arabic*.]
+\item \href{https://arxiv.org/abs/2609.40158}{\bf Intent Representation and Human Distraction Modulate the Effects of Legible Robot Motion in Hallway Navigation.}
+\pubauthors{\me, \authorname{Andrew Stratton}, \authorname{Christoforos Mavrogiannis}.}
+ACM Transactions on Human-Robot Interaction ({\bf THRI}), 2026. {\bf Accepted.}
+
+\item \href{https://arxiv.org/abs/2601.09856}{\bf How Human Motion Prediction Quality Shapes Social Robot Navigation Performance in Constrained Spaces.}
+\pubauthors{\authorname{Andrew Stratton}, \authorname{Phani Teja Singamaneni}, \me, \authorname{Rachid Alami}, \authorname{Christoforos Mavrogiannis}.}
+ACM/IEEE International Conference on Human-Robot Interaction ({\bf HRI}), 2026.
+
+\item \href{https://arxiv.org/abs/2605.06863}{\bf Bi3: A Biplatform, Bicultural, Biperson Dataset for Social Robot Navigation.}
+\pubauthors{\authorname{Andrew Stratton}, \authorname{Phani Teja Singamaneni}, \me, \authorname{Rachid Alami}, \authorname{Christoforos Mavrogiannis}.}
+IEEE International Conference on Robotics and Automation ({\bf ICRA}), 2026.
+
+\item \href{https://ieeexplore.ieee.org/document/11704112}{\bf SocRATES: Language-Driven Scenario Generation for Evaluating\\ Social Navigation Algorithms.}
+\pubauthors{\authorname{Shashank Rao Marpally}, \me, \authorname{Harold Soh}.}
+IEEE Robotics and Automation Letters ({\bf RA-L}), 2026.
+
+\item \href{https://arxiv.org/abs/2405.04235}{\bf LTLDoG: Satisfying Temporally-Extended Symbolic Constraints\\ for Safe Diffusion-Based Planning.}
+\pubauthors{\authorname{Zeyu Feng}, \authorname{Hao Luan}, \me, \authorname{Harold Soh}.}
+IEEE Robotics and Automation Letters ({\bf RA-L}), 2024.
+
+\item \href{https://doi.org/10.1109/IROS55552.2023.10341454}{\bf Towards Automated Void Detection for Search and Rescue with 3D Perception.}
+\pubauthors{\authorname{Ananya Bal}, \authorname{Ashutosh Gupta*}, \me*, \authorname{David Merrick}, \authorname{Robin Murphy}, \authorname{Howie Choset}.}
+IEEE/RSJ International Conference on Intelligent Robots and Systems ({\bf IROS}), 2023.
+\\ \pubnote{* Equal contribution.}
+
+\item \href{https://ieeexplore.ieee.org/abstract/document/10018779/}{\bf A Comparison of Point Cloud Registration Techniques for On-Site Disaster Data from the Surfside Structural Collapse.}
+\pubauthors{\authorname{Ananya Bal}, \authorname{Robert Ladig}, \me, \authorname{John Galeotti}, \authorname{Howie Choset}, \authorname{David Merrick}, \authorname{Robin Murphy}.}
+IEEE International Symposium on Safety, Security, and Rescue Robotics ({\bf SSRR}), 2022.
+\end{enumerate}
+
+
+\pubcategory{Manuscripts Under Review}
+\begin{enumerate}[leftmargin=0pt,labelwidth=1.1em,labelsep=0.2em,itemindent=0pt,listparindent=0pt,align=right,topsep=0.1em,itemsep=0.3em,parsep=0em,label=\arabic*.,start=8]
+\item {\bf Alpaca: An Interactive Platform for Social Robot Navigation.}
+\pubauthors{\me, \authorname{Jiamu Liu}, \authorname{Andrew Stratton}, \authorname{Tisha Jain}, \authorname{Christoforos Mavrogiannis}.}
+{\bf Under review at HRI 2027.}
+
+\item \href{https://arxiv.org/abs/2607.21964}{\bf ACME: A Multi-Cultural, Multi-Embodiment Social-Navigation Dataset.}
+\pubauthors{\authorname{Shashank Rao Marpally}, \authorname{Allan Wang}, \authorname{Atharva Ghotavadekar}, \authorname{Renato Alexandre Ribeiro}, \authorname{Nhat Le}, \authorname{Pilar Bachiller-Burgos}, \me, \authorname{et al}.}
+{\bf Under review at The International Journal of Robotics Research (IJRR)}, 2026.
+\end{enumerate}
+
+\pubcategory{Workshop Papers and Late-Breaking Reports}
+\begin{enumerate}[leftmargin=0pt,labelwidth=1.1em,labelsep=0.2em,itemindent=0pt,listparindent=0pt,align=right,topsep=0.1em,itemsep=0.3em,parsep=0em,label=\arabic*.,start=10]
+\item \href{https://doi.org/10.1145/3776734.3794499}{\bf Rethinking Legibility in Social Robot Navigation: Impact of Intent Representation and Human Attention.}
+\pubauthors{\me, \authorname{Andrew Stratton}, \authorname{Christoforos Mavrogiannis}.}
+{\bf HRI Companion}, 2026. Late-breaking report.
+\pubnote{Extended in the THRI article above.}
+
+\item {\bf Towards Automated Scenario Testing of Social Navigation Algorithms.}
+\pubauthors{\authorname{Shashank Rao Marpally}, \me, \authorname{Harold Soh}.}
+{\bf RSS Workshop on Unsolved Problems in Social Robot Navigation}, 2024.
+\\ \pubnote{Runner-up Best Paper Award. Extended in SocRATES (RA-L 2026) above.}
+\end{enumerate}
+\end{rSection}
+
+\begin{rSection}{Research Experience}
+\begin{rSubsection}{\href{https://fluentrobotics.com}{Fluent Robotics Lab, University of Michigan}}{Ann Arbor, USA}{Graduate Research Assistant; Advisor: Dr. Christoforos Mavrogiannis}{Aug 2024 -- Present}
+\item {\bf Legible robot navigation:} Developed MPPI-based intent-expression algorithms in PyTorch and deployed them on Stretch 2. Evaluated intent representation and pedestrian distraction in two controlled studies ($N=45$ each). First-author paper accepted to {\bf THRI 2026}. [\href{https://github.com/fluentrobotics/Legible_MPPI}{Code}]
+\item {\bf Prediction for decision-making:} Evaluated how human motion prediction quality affects navigation across planners and predictors in constrained spaces, linking prediction metrics to robot performance and human experience ({\bf HRI 2026}).
+\item {\bf Integrated robot systems:} Developing Alpaca, an interactive social-navigation platform integrating pedestrian tracking, prediction, navigation, and conversational interaction in ROS 2. First-author manuscript {\bf under review at HRI 2027}.
+\item {\bf Data for social navigation:} Contributing to Bi3, spanning two robot platforms and two cultural contexts ({\bf ICRA 2026}), and ACME, a multi-cultural, multi-embodiment dataset ({\bf under review at~IJRR}).
+\end{rSubsection}
+
+\begin{rSubsection}{\href{https://clear-nus.github.io}{CLeAR Lab, National University of Singapore}}{Singapore}{Research Assistant; Advisor: \href{https://haroldsoh.com}{Dr. Harold Soh}}{Aug 2023 -- Aug 2024}
+\item {\bf Diffusion planning on hardware:} Deployed LTLDoG, a diffusion-based planner with temporal-logic constraints, as a global planner for Unitree Go2 navigation experiments ({\bf RA-L 2024}).
+\item {\bf Scenario-based evaluation:} Developed an LLM-driven ROS 2/Gazebo tool to generate social navigation scenarios for benchmarking planners and identifying failure cases ({\bf SocRATES, RA-L 2026}; runner-up best paper, RSS 2024 workshop). [\href{https://github.com/clear-nus/SocRATES}{Code}]
+\item Integrated and deployed quadrupedal navigation systems for experiments and data collection in dense, unstructured human environments, including university canteens.
+\end{rSubsection}
+
+
+\Needspace{8\baselineskip}
+\begin{rSubsection}{\href{https://www.mbrdi.co.in/}{Mercedes-Benz Research and Development India}}{Bengaluru, India}{Computer Vision / Deep Learning Intern}{Mar 2023 -- May 2023}
+\item Developed trajectory planning and a reconstruction pipeline for autonomous 3D face scanning with a WidowX robot arm.
+\item Developed an ArUco-marker system to measure ground-truth head position and orientation of seated vehicle occupants, supporting validation of in-cabin perception.
+\end{rSubsection}
+
+\begin{rSubsection}{\href{https://biorobotics.ri.cmu.edu/}{Biorobotics Lab, Carnegie Mellon University}}{Pittsburgh, USA}{Research Intern / Bachelor's Thesis; Advisor: Dr. Howie Choset}{Jun 2022 -- Jan 2023}
+\item {\bf Legged--wheeled locomotion (DARPA VeRT):} Built a HEBI-based robot prototype and implemented kinematic control and convex model predictive control for locomotion. [\href{https://drive.google.com/file/d/1BbIZ1sqgupsLpDIYjUZfTdsq0vR_bh4T/view}{Video}]
+\item {\bf Search-and-rescue perception (NSF):} Developed a Hierarchical Localization / COLMAP pipeline to align 3D reconstructions of multi-day Surfside drone imagery for semi-automated void detection ({\bf SSRR 2022; IROS 2023}).
+\item {\bf Contact-rich manipulation (Northrop Grumman):} Worked on hardware-in-the-loop validation of peg-insertion control using Universal Robots arms, including contact-force estimation and impedance control.
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Technical Skills}
+{\bf Languages:} Python, C/C++, MATLAB, R, Bash
+\\ {\bf Frameworks:} PyTorch, ROS 1/2, Gazebo, OpenCV, Open3D
+\\ {\bf Planning \& Learning:} MPPI, convex MPC, diffusion-based planning, temporal-logic constraints, reinforcement learning, human motion prediction
+\\ {\bf Perception:} 3D reconstruction (SfM, point-cloud registration), human detection and tracking
+\\ {\bf Robot Platforms:} Hello Robot Stretch 2, Unitree Go2, Universal Robots, WidowX, AgileX Ranger Mini 3.0, OptiTrack
+\end{rSection}
+
+\begin{rSection}{Honors \& Awards}
+\begin{list}{$\cdot$}{\leftmargin=0pt \itemindent=0pt \listparindent=0pt \labelsep=0.5em \itemsep -0.4em}
+\item {\bf Robotics PhD Departmental Fellowship:} First-year PhD support, University of Michigan.
+\item {\bf Rackham Graduate Student Travel Grant:} University of Michigan; international conference travel.
+\item {\bf Runner-up Best Paper:} RSS 2024 Workshop on Unsolved Problems in Social Robot Navigation.
+\end{list}
+\end{rSection}
+
+\begin{rSection}{Teaching and Volunteering Experience}
+{\bf Graduate Student Instructor, ROB 204} \hfill {\em Fall 2026}
+\\ Introduction to Human-Robot Systems, University of Michigan
+\\ {\bf Course Developer, ROB 498/599: Computational HRI} \hfill {\em Jul -- Oct 2025}
+\\ Developed course assignments, Department of Robotics, University of Michigan
+\\ {\bf Teaching Assistant, Software for Embedded Systems} \hfill {\em Jan -- Jun 2022}
+\\ BITS Pilani, Goa; Instructor: \href{https://www.bits-pilani.ac.in/goa/neena-goveas/}{Dr. Neena Goveas}
+\\ {\bf Teaching Head, Electronics and Robotics Club} \hfill {\em Aug 2021 -- Apr 2022}
+\\ Organized courses and competitions at BITS Pilani, Goa
+\end{rSection}
+
+\begin{rSection}{Professional Service \& Mentorship}
+\begin{list}{$\cdot$}{\leftmargin=0pt \itemindent=0pt \listparindent=0pt \labelsep=0.5em \itemsep -0.4em}
+\item {\bf Review Service:} THRI, RA-L, ICRA, IROS, HRI, Autonomous Robots, RO-MAN.
+\item {\bf Mentoring:} Jiamu Liu (University of Michigan Robotics M.S.); Atharva Ghotavadekar (BITS Pilani Goa B.E.; subsequently Research Assistant, CLeAR Lab, National University of Singapore).
+\end{list}
+\end{rSection}
+\end{document}
+
+
+
+
+
+
+
+

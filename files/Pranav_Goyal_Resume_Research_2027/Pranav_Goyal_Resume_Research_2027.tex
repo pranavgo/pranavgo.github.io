@@ -1,0 +1,86 @@
+% One-page research internship resume in the existing resume.cls template.
+% Companion to the approved research CV; original resume preserved separately.
+\documentclass{resume}
+\usepackage[left=0.35in,top=0.3in,right=0.35in,bottom=0.3in]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{needspace}
+\definecolor{link}{HTML}{428BCA}
+\hypersetup{colorlinks=true,urlcolor=link,linkcolor=link,
+  pdftitle={Pranav Goyal -- Research Internship Resume},pdfauthor={Pranav Goyal}}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\setlength{\emergencystretch}{1em}
+\newcommand{\me}{{\normalfont\bfseries Pranav Goyal}}
+\newcommand{\sep}{\hspace{0.4em}$\vert$\hspace{0.4em}}
+\newcommand{\pubmeta}[1]{{\em\mbox{#1}}}
+\def\sectionskip{\vspace{5pt}}
+\def\sectionlineskip{\smallskip}
+\setlength{\parskip}{3pt}
+\def\nameskip{\smallskip}
+\def\namesize{\LARGE}
+
+\renewenvironment{rSubsection}[4]{%
+ \Needspace{4\baselineskip}%
+ {\bf #1}\hfill #2\\
+ {\em #3}\hfill {\em #4}\smallskip
+ \begin{list}{$\cdot$}{\leftmargin=0pt\itemindent=0pt\listparindent=0pt\labelsep=0.5em}%
+ \itemsep -0.4em\vspace{-0.5em}%
+}{\end{list}\vspace{0.15em}}
+
+\name{Pranav Goyal}
+\address{+1 734-368-0757 \sep \href{mailto:pranav.d.goyal@gmail.com}{pranav.d.goyal@gmail.com} \sep
+\href{https://pranavgo.github.io/}{Website} \sep
+\href{https://scholar.google.com/citations?user=4lQd0TsAAAAJ}{Google Scholar} \sep
+\href{https://www.linkedin.com/in/pranav-goyal-010b08197/}{LinkedIn}}
+
+\begin{document}
+\begin{rSection}{Education}
+{\bf University of Michigan, Ann Arbor}\hfill {\em Aug 2024 -- Present; expected Aug 2029}
+\\ Ph.D. Candidate in Robotics; Advisor: \href{https://chrismavrogiannis.com/}{Dr. Christoforos Mavrogiannis}\hfill {\em GPA: 4.12/4.00}
+\\[0.3em] {\bf BITS Pilani, K. K. Birla Goa Campus}\hfill {\em Aug 2019 -- Mar 2023}
+\\ B.E. in Electronics and Instrumentation Engineering\hfill {\em GPA: 8.58/10}
+\end{rSection}
+
+\begin{rSection}{Selected Publications}
+\begin{list}{$\cdot$}{\leftmargin=0pt\itemindent=0pt\listparindent=0pt\labelsep=0.5em\itemsep -0.18em}
+\item \href{https://arxiv.org/abs/2609.40158}{\bf Intent Representation and Human Distraction Modulate the Effects of Legible Robot Motion in Hallway Navigation.} \pubmeta{\me, A. Stratton, C. Mavrogiannis. Accepted to THRI, 2026.}
+\item \href{https://arxiv.org/abs/2601.09856}{\bf How Human Motion Prediction Quality Shapes Social Robot Navigation Performance in Constrained Spaces.} \pubmeta{A. Stratton, P. T. Singamaneni, \me, et al. HRI, 2026.}
+\item \href{https://arxiv.org/abs/2605.06863}{\bf Bi3: A Biplatform, Bicultural, Biperson Dataset for Social Robot Navigation.}\\ \pubmeta{A. Stratton, P. T. Singamaneni, \me, et al. ICRA, 2026.}
+\item \href{https://ieeexplore.ieee.org/document/11704112}{\bf SocRATES: Language-Driven Scenario Generation for Evaluating Social Navigation Algorithms.} \pubmeta{S. R. Marpally, \me, H. Soh. RA-L, 2026.}
+\item \href{https://arxiv.org/abs/2405.04235}{\bf LTLDoG: Satisfying Temporally-Extended Symbolic Constraints for Safe Diffusion-Based Planning.} \pubmeta{Z. Feng, H. Luan, \me, H. Soh. RA-L, 2024.}
+\item {\bf Alpaca: An Interactive Platform for Social Robot Navigation.} \pubmeta{\me\ et al. HRI 2027, in review.}
+\end{list}
+\end{rSection}
+
+\begin{rSection}{Research Experience}
+\begin{rSubsection}{\href{https://fluentrobotics.com/}{Fluent Robotics Lab}, University of Michigan}{Ann Arbor, USA}{Graduate Research Assistant}{Aug 2024 -- Present}
+\item Developed MPPI-based intent-expression planners in PyTorch and deployed them on Stretch 2; evaluated intent representation and distraction in two controlled studies ($N=45$ each; first-author THRI paper).
+\item Evaluated how human motion prediction quality affects robot navigation and human experience (HRI 2026); contributing to Bi3 and ACME datasets (ICRA 2026; ACME under review at IJRR).
+\item Developing Alpaca, a ROS 2 platform integrating pedestrian tracking, prediction, navigation, and conversational interaction (under review at HRI 2027).
+\end{rSubsection}
+
+\begin{rSubsection}{\href{https://clear-nus.github.io/}{CLeAR Lab}, National University of Singapore}{Singapore}{Research Assistant; Advisor: \href{https://haroldsoh.com/}{Dr. Harold Soh}}{Aug 2023 -- Aug 2024}
+\item Deployed LTLDoG, a diffusion-based planner with temporal-logic constraints, for Unitree Go2 navigation experiments in human environments (RA-L 2024).
+\item Developed LLM-driven scenario generation in ROS 2/Gazebo to benchmark social-navigation planners and identify failure cases (SocRATES, RA-L 2026; earlier RSS 2024 workshop paper).
+\end{rSubsection}
+
+\begin{rSubsection}{\href{https://biorobotics.ri.cmu.edu/}{Biorobotics Lab}, Carnegie Mellon University}{Pittsburgh, USA}{Research Intern / Bachelor's Thesis; Advisor: Dr. Howie Choset}{Jun 2022 -- Jan 2023}
+\item Built a HEBI-based robot prototype and implemented convex MPC and kinematic control for legged--wheeled locomotion (DARPA~VeRT).
+\item Developed a Hierarchical Localization / COLMAP pipeline to align multi-day Surfside 3D reconstructions for semi-automated void detection (SSRR 2022; IROS 2023).
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Technical Skills}
+{\bf Programming \& Tools:} Python, C/C++, MATLAB, Bash, R; PyTorch, ROS 1/2, Gazebo, OpenCV, Open3D
+\\ {\bf Methods:} MPPI, convex MPC, diffusion planning, temporal logic, reinforcement learning, human motion prediction, 3D reconstruction and point-cloud registration
+\\ {\bf Hardware:} Stretch 2, Unitree Go2, Universal Robots, WidowX, AgileX Ranger Mini 3.0, OptiTrack
+\end{rSection}
+
+\begin{rSection}{Awards \& Service}
+{\bf Awards:} Robotics PhD Departmental Fellowship; Rackham Travel Grant; Runner-up Best Paper, RSS 2024 Workshop on Unsolved Problems in Social Robot Navigation
+\\ {\bf Reviewer:} THRI, RA-L, ICRA, IROS, HRI, Autonomous Robots, RO-MAN
+\\ {\bf Teaching:} Graduate Student Instructor, ROB 204: Introduction to Human-Robot Systems, Michigan (Fall 2026)
+\end{rSection}
+\end{document}
